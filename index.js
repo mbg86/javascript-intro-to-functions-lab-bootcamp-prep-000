@@ -7,5 +7,11 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  return string.toLowerCase()
+  return string.toUpperCase()
+  console.log(logShout, 'log')
+  logShout('hello')
+
+  expect(spy).toHaveBeenCalledWith('HELLO')
+
+  console.log.restore()
 }
