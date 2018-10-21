@@ -7,7 +7,8 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  return string.toUpperCase()
-  console.log('hello')
-  console.log.restore()
+  console.log(toUpperCase)
+  logShout('hello')
+  const spy = expect.spyOn(console, 'log').andCallThrough()
+  expect(spy).toHaveBeenCalledWith('HELLO')
 }
