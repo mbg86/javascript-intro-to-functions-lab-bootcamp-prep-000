@@ -7,7 +7,6 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log(toUpperCase)
   logShout('hello')
   expect(spy).toHaveBeenCalledWith('HELLO')
 }
