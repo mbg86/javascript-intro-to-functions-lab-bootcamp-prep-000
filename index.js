@@ -21,10 +21,10 @@ function sayHiToGrandma(string){
 
 function sayHiToGrandma(string){
   if (string === string.toUpperCase())
-  return -"I can't hear you!" + "YES INDEED!"
+  return - "I can't hear you!" + "YES INDEED!"
 }
 
 function sayHiToGrandma(string){
   if (string === string.toLowerCase())
-  return -"YES INDEED!" + "I love you too!"
+  return - "YES INDEED!" + "I love you too!"
 }
